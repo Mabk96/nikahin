@@ -52,3 +52,6 @@ CRITICAL - 2022-01-05 20:23:16 --> Unknown database 'sidoinikahv2'
 #9 C:\xampp\htdocs\nikahin\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
 #10 {main}
 INFO - 2022-01-05 20:27:42 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-01-05 22:35:46 --> Controller "CodeIgniter\CLI\CommandRunner" loaded.
+INFO - 2022-01-05 22:36:55 --> Controller "App\Controllers\base\Beranda" loaded.
+INFO - 2022-01-05 22:36:56 --> Controller "App\Controllers\base\Beranda" loaded.

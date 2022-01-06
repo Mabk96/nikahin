@@ -498,7 +498,7 @@ https://templatemo.com/tm-568-digimedia
                       <div class="info-post">
                         <div class="icon">
                           <i class=" fa fa-envelope faicon"></i>
-                          <a href="#">- admin@e.rabi.com -</a>
+                          <a href="#">- admin@nikhanin.com -</a>
                         </div>
                       </div>
                     </div>
@@ -506,7 +506,7 @@ https://templatemo.com/tm-568-digimedia
                       <div class="info-post">
                         <div class="icon">
                           <i class="fa fa-whatsapp faicon"> </i>
-                          <a href="#">- 085155339354 -</a>
+                          <a href="#">- 082114513368 - </br> - (Muslim Atau Bagas) -</a>
                         </div>
                       </div>
                     </div>
@@ -514,7 +514,7 @@ https://templatemo.com/tm-568-digimedia
                       <div class="info-post">
                         <div class="icon">
                           <i class="fa fa-instagram faicon"></i>
-                          <a href="#">- e-rabi_ -</a>
+                          <a href="#">- nikahin -</a>
                         </div>
                       </div>
                     </div>
@@ -522,7 +522,7 @@ https://templatemo.com/tm-568-digimedia
                       <div class="info-post">
                         <div class="icon">
                           <i class="fa fa-facebook-square faicon"></i>
-                          <a href="#">- E-Rabi -</a>
+                          <a href="#">- nikahin -</a>
                         </div>
                       </div>
                     </div>
