@@ -94,18 +94,18 @@ define('SITE_NAME', 'Si Doi Nikah'); ///NAMA WEBSITE
 
 // =========== development mode ============
 // //LINK DOMAIN WITH URL
-define('SITE_UTAMA', 'http://home.local:8080'); 
-define('SITE_UNDANGAN', 'http://undangan.local:8080');
-define('SITE_ADMIN', 'http://admin.local:8080');
+define('SITE_UTAMA', 'http://home.localhost:8080');
+define('SITE_UNDANGAN', 'http://undangan.localhost:8080');
+define('SITE_ADMIN', 'http://admin.localhost:8080');
 
 //DOMAIN ONLY
-define('DOMAIN_UTAMA', 'home.local:8080');
-define('DOMAIN_UTAMA_WWW', 'home.local:8080');
-define('DOMAIN_UNDANGAN', 'undangan.local:8080');
-define('DOMAIN_ADMIN', 'admin.local:8080');
+define('DOMAIN_UTAMA', 'home.localhost:8080');
+define('DOMAIN_UTAMA_WWW', 'home.localocalhost:8080');
+define('DOMAIN_UNDANGAN', 'undangan.localhost:8080');
+define('DOMAIN_ADMIN', 'admin.localhost:8080');
 
 
 //base url dinamis
-$base = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']) : 'http://'.$_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']);
+$base = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']) : 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 defined('BASE') || define('BASE', $base);
