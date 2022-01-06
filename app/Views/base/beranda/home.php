@@ -1,340 +1,562 @@
 <!DOCTYPE html>
-<html Content-Language="ID" lang="id" xml:lang="id">
-  <head>
-    <title><?= SITE_NAME ?> - Digital Invitation</title>
-    <link rel="icon" href="<?php echo base_url() ?>/assets/base/img/favicon.png?<?= date("Y-m-d"); ?>">
+<html lang="en">
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Undangan digital berupa website untuk pernikahanmu. Lebih praktis, keren dan kekinian.">
-    <meta name="keywords" content="Undangan digital, Website pernikahan, Undangan kekinian, Web undangan kren">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="theme-color" content="#005CAA" />
-    <meta name="author" content="MC Project">
+<head>
 
-    <!-- Required CSS -->
-    <link rel="stylesheet" href="<?php echo base_url() ?>/assets/base/css/bootstrap.min.css?SIDOINIKAHV2" >
-    <link rel="stylesheet" href="<?php echo base_url() ?>/assets/base/css/line-icons.css?SIDOINIKAHV2">
-    <link type="text/css" href="<?php echo base_url() ?>/assets/base/css/froala_blocks.css?SIDOINIKAHV2" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  </head>
+  <title><?= SITE_NAME ?> - Digital Invitation</title>
 
-  <body>
-    <header>
-        <div class="container">
-          <nav class="navbar navbar-expand-md fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="<?php echo base_url() ?>">
-                <img src="<?php echo base_url() ?>/assets/base/img/logo.png?cache<?= date("Y-m-d"); ?>" height="35" alt="image">
-              </a>
+  <!-- Bootstrap core CSS -->
+  <link href="<?php echo base_url() ?>/assets/base/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-        
-              <div class="collapse navbar-collapse" id="navbarNav3">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">BERANDA <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#fitur">FITUR</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#harga">HARGA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#tema">TEMA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#testi">TESTIMONI</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('login') ?>" style="font-weight:bolder">LOGIN</a>
-                  </li>
-                </ul>
-        
-              </div>
-            </div>
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="<?php echo base_url() ?>/assets/base/css/fontawesome.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>/assets/base/css/templatemo-digimedia-v2.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>/assets/base/css/animated.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>/assets/base/css/owl.css">
+  <!--
+
+TemplateMo 568 DigiMedia
+
+https://templatemo.com/tm-568-digimedia
+
+-->
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- Pre-header Starts -->
+  <!-- <div class="pre-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8 col-7">
+          <ul class="info">
+            <li><a href="#"><i class="fa fa-envelope"></i>digimedia@company.com</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>010-020-0340</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-5">
+          <ul class="social-media">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- Pre-header End -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="<?php echo base_url() ?>/assets/base/img/logo-v2.png" alt="">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Beranda</a></li>
+              <li class="scroll-to-section"><a href="#about">Tentang</a></li>
+              <li class="scroll-to-section"><a href="#services">Fitur</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Tema</a></li>
+              <li class="scroll-to-section"><a href="#blog">Harga</a></li>
+              <li class="scroll-to-section"><a href="#contact">Testimoni</a></li>
+              <li class="scroll-to-section"><a href="#contact">Kontak</a></li>
+              <li class="scroll-to-section">
+                <div class="border-first-button"><a href="<?= base_url('login') ?>">Login</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
           </nav>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
 
-      <section class="fdb-block cover d-flex align-items-center" >
-        <div class="container align-items-end justify-content-center d-flex">
-          <div class="row align-items-top text-left">
-            <div class="col-12 col-md-6 col-lg-6">
-              <h1 class="judul"><?= SITE_NAME ?></h1>
-              <p class="lead subjudul">Undangan pernikahan lebih hemat, praktis, dan kekinian dengan url undangan yang disebar otomatis untuk memberikan kesan terbaik.</p>
-              <p class="mt-4"><a href="<?= base_url() ?>/order" class="btn btn-light btn-pesan">Buat Undangan</a></p>
-              <p class="mt-4"><a href="<?= base_url() ?>/tema" class="btn btn-light btn-pesan">Lihat Demo</a></p>
-            </div>
-      
-            <div class="col-12 col-sm-4 col-md-6 col-lg-4 m-auto">
-              <img alt="image" class="img-fluid rounded-0" src="<?php echo base_url() ?>/assets/base/img/favicon.png?<?= date("Y-m-d"); ?>">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="fdb-block" id="fitur">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col-12">
-              <h1>Fitur</h1>
-            </div>
-          </div>
-          <div class="row text-left mt-5">
-            <div class="col-12 col-md-4">
-              <div class="row">
-                <div class="col-3">
-                  <img alt="image" class="fdb-icon" src="<?php echo base_url() ?>/assets/base/img/icons/gift.svg">
-                </div>
-                <div class="col-9">
-                  <h3><strong>Website Selalu Aktif</strong></h3>
-                  <p>Website yang cepat dan aman akan aktif tanpa ada batasan waktu.</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-              <div class="row">
-                <div class="col-3">
-                  <img alt="image" class="fdb-icon" src="<?php echo base_url() ?>/assets/base/img/icons/cloud.svg">
-                </div>
-                <div class="col-9">
-                  <h3><strong>Ubah Tampilan</strong></h3>
-                  <p>Desain web dan undangan dapat kamu ubah sesuka hati sesuai keinginan.</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-              <div class="row">
-                <div class="col-3">
-                  <img alt="image" class="fdb-icon" src="<?php echo base_url() ?>/assets/base/img/icons/map-pin.svg">
-                </div>
-                <div class="col-9">
-                  <h3><strong>Do'a dan Ucapan</strong></h3>
-                  <p>Para tamu dapat memberikan doa dan ucapan langsung di profile website undanganmu.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-      
-          <div class="row text-left pt-3 pt-sm-4 pt-md-5">
-            <div class="col-12 col-md-4">
-              <div class="row">
-                <div class="col-3">
-                  <img alt="image" class="fdb-icon" src="<?php echo base_url() ?>/assets/base/img/icons/layers.svg">
-                </div>
-                <div class="col-9">
-                  <h3><strong>Cerita</strong></h3>
-                  <p>Tuangkan cerita perjalanan cinta anda kepada tamu undangan.</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-              <div class="row">
-                <div class="col-3">
-                  <img alt="image" class="fdb-icon" src="<?php echo base_url() ?>/assets/base/img/icons/life-buoy.svg">
-                </div>
-                <div class="col-9">
-                  <h3><strong>Layar Sapa</strong></h3>
-                  <p>Setiap tamu yang hadir dapat disapa saat menerima undangan.</p>
-                </div>
-              </div>
-            </div>
-      
-            <div class="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-              <div class="row">
-                <div class="col-3">
-                  <img alt="image" class="fdb-icon" src="<?php echo base_url() ?>/assets/base/img/icons/layout.svg">
-                </div>
-                <div class="col-9">
-                  <h3><strong> Kirim Undangan 
-                    </strong></h3>
-                  <p>Kamu bisa menggunakan WhatsApp untuk mengirimkan undangan.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="fdb-block" style="background-image: linear-gradient(to right, #005CAA 0%, #00c6f9 100%) !important" id="harga">
-        <div class="container">
-          <div class="row text-center">
-            <div class="col">
-              <h2 class="text-white">HARGA</h2>
-            </div>
-          </div>
-      
-          <div class="row mt-5 align-items-center">
-            <div class="col-12 col-md-6 col-lg-6">
-              <h2 class="judul">Harga Termurah!</h2>
-              <p class="lead subjudul">Dengan harga terjangkau anda sudah mendapatkan halaman website, manajemen tamu, cerita, komentar, peta lokasi, dan buku tamu digital!.</p>
-            </div>
-      
-            <div class="col-12 col-sm-10 col-md-8 m-auto col-lg-4 text-center pt-4 pt-lg-0">
-              <div class="fdb-box px-4 pt-5">
-                <h2>Premium</h2>
-                <p class="lead">Harga spesial selama masa pandemi.</p>
-      
-                <p class="h1 mt-5 mb-5">Rp 100.000</p>
-      
-                <p><a href="<?= base_url() ?>/tema" class="btn btn-primary">Pesan Sekarang</a></p>
-              </div>
-            </div>
-      
-          </div>
-        </div>
-      </section>
-
-      <section class="fdb-block team-1" id="tema">
-        <div class="container">
-          <div class="row text-center justify-content-center">
-            <div class="col-12">
-              <h2>Tema</h2>
-              <p class="lead">Tersedia banyak pilihan tema undangan yang menarik untuk pernikahanmu..</p>
-            </div>
-          </div>
-    
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
           <div class="row">
-            <?php 
-            $i = 1;
-            foreach ($tema->getResult() as $row){ ?>
-              <div class="col-lg-3 col-md-6 col-xs-12 mt-5">
-                <div class="fdb-box p-0">
-                  <img alt="image" class="img-fluid rounded-0" src="<?php echo base_url() ?>/assets/themes/<?= $row->nama_theme ?>/preview.png">
-        
-                  <div class="content p-2 d-flex justify-content-center">
-                    <h3><strong><?= $row->nama_theme ?></strong></h3>
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>E-Rabi</h2>
+                    <!-- <h6>Digital Invitation</h6> -->
+                    <p>
+                      E-Rabi - Digital Invitation merupakan undangan berformat digital yang hadir untuk menjawab kebutuhan masyarakat, tanpa perlu memikirkan jarak dan juga dikemas dengan tampilan yang menarik.</br></br><b>Ayo Buat Undangan Online Anda Sekarang dan Berikan Kesan Tak Terlupakan Kepada Setiap Tamu Undangan Anda!</b>
+                    </p>
                   </div>
-
-                  <div class="d-flex justify-content-center">
-                    <p class="mt-2 mr-2"><a href="<?= base_url('order/'.$row->kode_theme) ?>" class="btn btn-success btn-sm">Pesan</a></p>  
-                    <p class="mt-2"><a href="<?= base_url('demo/'.$row->nama_theme) ?>" class="btn btn-primary btn-sm">Demo</a></p>
+                  <div class="col-lg-12">
+                    <div class="border-first-button scroll-to-section">
+                      <a class="btn1" href="<?= base_url() ?>/tema" target="_blank">Demo</a>
+                      <a class="btn2" href="<?= base_url() ?>/tema" target="_blank">Pesan</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            <?php 
-            if ($i++ == 4) break;
-            } 
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight " data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="items owl-carousel">
+                  <?php
+                  $i = 1;
+                  foreach ($tema->getResult() as $row) {
+                  ?>
+                    <img src="<?php echo base_url() ?>/assets/themes/<?= $row->nama_theme ?>/preview.png" alt="">
+                  <?php
+                    if ($i++);
+                  }
+                  ?>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about section">
+    <div class="services section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+              <h4>Tentang <em>E-Rabi</em></h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-left-image  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="<?php echo base_url() ?>/assets/base/img/about-dec-v2.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center  wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="about-right-content">
+                <div class="section-heading">
+                  <!-- <h6>Tentang Kami</h6> -->
+                  <h6>Siapa E-Rabi ?</h6>
+                  <div class="line-dec"></div>
+                </div>
+                <p>E-Rabi - Digital Invitation menyediakan banyak tema design undangan pernikahan yang bersifat digital, E-Rabi didesain untuk memberikan kesan yang tak akan terlupakan oleh setiap tamu undangan Anda dengan berbagai pilihan desain undangan, E-Rabi juga dapat menyempurnakan moment berharga Anda.</p>
+                <div class="section-heading">
+                  <h6>Kenapa Pilih E-Rabi ?</h6>
+                  <div class="line-dec"></div>
+                </div></br>
+                <div class="row">
+                  <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="progress" data-percentage="100">
+                        <span class="progress-left">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                          <div>
+                            100%<br>
+                            <span>Terjangkau</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="progress" data-percentage="100">
+                        <span class="progress-left">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                          <div>
+                            100%<br>
+                            <span>Responsive</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="progress" data-percentage="100">
+                        <span class="progress-left">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                          <div>
+                            100%<br>
+                            <span>Banyak Fitur</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-4 col-6">
+                    <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
+                      <div class="progress" data-percentage="100">
+                        <span class="progress-left">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                          <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">
+                          <div>
+                            100%<br>
+                            <span>Berkesan</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <!-- <h6>Fitur</h6> -->
+            <h4>Fitur <em>E-Rabi</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-12">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-6 align-self-center">
+                              <div class="left-text">
+                                <h4>Detail &amp; Fitur</h4>
+                                <div class="ticks-list">
+
+                                  <table>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-laptop faicon"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                                      <td class="title-fitur">Responsive Di Semua Device</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-cogs faicon"></i></td>
+                                      <td class="title-fitur">Dashboard Untuk Mengelola Undangan Anda</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-heart user faicon"></i></td>
+                                      <td class="title-fitur">Sapa Tamu Anda Saat Membuka Undangan</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-music faicon"></i></td>
+                                      <td class="title-fitur">Mengganti Background Musik Sesuka Anda</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-heart faicon"></i></td>
+                                      <td class="title-fitur">Para Tamu Dapat Memberikan Ucapan & Doa</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-columns faicon"></i></td>
+                                      <td class="title-fitur">Detail Acara Akad Dan Resepsi</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-map-marker faicon"></i></td>
+                                      <td class="title-fitur">Titik Lokasi Akad Dan Resepsi</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-picture-o faicon"></i></td>
+                                      <td class="title-fitur">Album Untuk Menampilkan Foto - Foto</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-video-camera faicon"></i></td>
+                                      <td class="title-fitur">Video Story Perjalanan Kisah Cinta Anda</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="icon-fitur"><i class="fa fa-pencil-square-o faicon"></i></td>
+                                      <td class="title-fitur">Story Line Perjalan Kisah Cinta Anda </td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <!-- <p>Masih Banyak Lagi Loh Fitur - Fitur Dari E-Rabi </p> -->
+                              </div>
+                            </div>
+                            <div class="col-lg-6 align-self-center">
+                              <div class="right-image">
+                                <img src="<?php echo base_url() ?>/assets/base/img/services-image-02.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="free-quote" class="free-quote">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+            <h6>Get Your Free Quote</h6>
+            <h4>Grow With Us Now</h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-8 offset-lg-2  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="web" name="web" class="website" placeholder="Your website URL..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <button type="submit" class="main-button">Get Quote Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+              <!-- <h6>Our Portofolio</h6> -->
+              <h4>Tema <em>E-Rabi</em></h4>
+              <div class="line-dec"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="loop owl-carousel">
+            <?php
+            $i = 1;
+            foreach ($tema->getResult() as $row) {
+            ?>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="<?php echo base_url() ?>/assets/themes/<?= $row->nama_theme ?>/preview.png" alt="">
+                  </div>
+                  <div class="down-content">
+                    <h4>- <?= $row->nama_theme ?> -</h4>
+                    <div class="col-lg-12">
+                      <div class="border-first-button scroll-to-section">
+                        <a href="<?= base_url('demo/' . $row->nama_theme) ?>" target="_blank">Demo</a>
+                        <a class="btn2" href="<?= base_url() ?>/tema" target="_blank">Pesan</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <?php
+              if ($i++);
+            }
             ?>
           </div>
-
-          <div class="d-flex justify-content-center">
-            <p class="mt-4"><a href="<?= base_url() ?>/tema" class="btn btn-primary">Lihat Semua</a></p>
-          </div>
-
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <div class="border-first-button scroll-to-section">
+      <a href="<?= base_url() ?>/tema" target="_blank">Lihat Lebih Banyak</a>
+    </div>
+  </div>
 
-      <section class="fdb-block" id="testi">
-        <div class="container">
-          <div class="row text-center justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-              <h2>Testimonials</h2>
-              <p class="lead">A small river named Duden flows by their place and supplies it with the necessary regelialia. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-            </div>
+  <div id="blog" class="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="section-heading">
+            <!-- <h6>Recent News</h6> -->
+            <h4>Harga <em>Undangan</em></h4>
+            <div class="line-dec"></div>
           </div>
-      
-          <div class="row mt-5 align-items-center justify-content-center">
-            <div class="col-md-8 col-lg-4">
-              <div class="fdb-box">
-                <div class="row no-gutters align-items-center">
-                  <div class="col-3">
-                    <img alt="image" class="img-fluid rounded" src="<?php echo base_url() ?>/assets/base/img/people/1.jpg">
-                  </div>
-                  <div class="col-8 ml-auto">
-                    <p>
-                      <strong>MC Project</strong><br>
-                      <em>Co-founder at Company</em>
-                    </p>
-                  </div>
-                </div>
-                <div class="row mt-4">
-                  <div class="col-12">
-                    <p class="lead">
-                      "Even the all-powerful Pointing has no control about the blind texts it is an small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar."
-                    </p>
-                  </div>
-                </div>
-              </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+          <div class="blog-post">
+            <div class="thumb">
+              <a href="#"><img src="<?php echo base_url() ?>/assets/base/img/blog-post-01.jpg" alt=""></a>
             </div>
-      
-            <div class="col-md-8 col-lg-4 mt-4 mt-lg-0">
-              <div class="fdb-box">
-                <div class="row no-gutters align-items-center">
-                  <div class="col-3">
-                    <img alt="image" class="img-fluid rounded" src="<?php echo base_url() ?>/assets/base/img/people/3.jpg">
-                  </div>
-                  <div class="col-8 ml-auto">
-                    <p>
-                      <strong>MC Project</strong><br>
-                      <em>Co-founder at Company</em>
-                    </p>
-                  </div>
-                </div>
-                <div class="row mt-4">
-                  <div class="col-12">
-                    <p class="lead">
-                      "Far far away, behind the word mountains, far from the countries Vokalia. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-      
-            <div class="col-md-8 col-lg-4 mt-4 mt-lg-0">
-              <div class="fdb-box">
-                <div class="row no-gutters align-items-center">
-                  <div class="col-3">
-                    <img alt="image" class="img-fluid rounded" src="<?php echo base_url() ?>/assets/base/img/people/2.jpg">
-                  </div>
-                  <div class="col-8 ml-auto">
-                    <p>
-                      <strong>MC Project</strong><br>
-                      <em>Co-founder at Company</em>
-                    </p>
-                  </div>
-                </div>
-                <div class="row mt-4">
-                  <div class="col-12">
-                    <p class="lead">
-                      "Separated they live in Bookmarksgrove right at the coast of the Semantics, the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div class="down-content" style="padding-left: 40px;">
+              <span class="category col-lg-6 col-md-6 col-sm-6">Premium</span>
+              <p>- Sudah Include Semua Fitur -</p>
+              <h4><em>Rp. 200.000,00</em></h4>
+              <span class="category-btnpesan"><a href="#">Pesan Sekarang</a></span>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
 
-      <footer class="fdb-block footer-small footer">
-        <div class="container">
-        <div class="col-12 text-lg-left">
-            <p class="lead footer-social">
-              <a href="https://twitter.com/mycodingxd" class="mx-2"><i class="lni-twitter-filled" aria-hidden="true"></i></a>
-              <a href="https://facebook.com/mycodingxd" class="mx-2"><i class="lni-facebook-filled" aria-hidden="true"></i></a>
-              <a href="https://instagram.com/mycodingxd" class="mx-2"><i class="lni-instagram-filled" aria-hidden="true"></i></a>
-            </p>
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <!-- <h6>Contact Us</h6> -->
+            <h4>Kontak <em>Kami</em></h4>
+            <div class="line-dec"></div>
           </div>
-            <div class="row text-center">
-            <div class="col">
-                <p class="text-footer" style="color:#fff;">&#169;2021 <a href="<?php echo base_url() ?>" rel="dofollow" target="_blank"><?= SITE_NAME ?></a> - <a href="https://mycoding.net" rel="dofollow" target="_blank">MC Project</a> - <a href="https://401xd.com" rel="dofollow" target="_blank">401XD Group</a>.</p>
-            </div>
-            </div>
         </div>
-    </footer>
-      
-    <script src="<?php echo base_url() ?>/assets/base/js/jquery-min.js"></script>
-    <script src="<?php echo base_url() ?>/assets/base/js/popper.min.js"></script>
-    <script src="<?php echo base_url() ?>/assets/base/js/bootstrap.min.js"></script>
-  </body>
+        <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="contact-dec">
+                  <img src="<?php echo base_url() ?>/assets/base/img/contact-dec-v2.png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="fill-form">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <div class="info-post">
+                        <div class="icon">
+                          <i class=" fa fa-envelope faicon"></i>
+                          <a href="#">- admin@e.rabi.com -</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="info-post">
+                        <div class="icon">
+                          <i class="fa fa-whatsapp faicon"> </i>
+                          <a href="#">- 085155339354 -</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="info-post">
+                        <div class="icon">
+                          <i class="fa fa-instagram faicon"></i>
+                          <a href="#">- e-rabi_ -</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="info-post">
+                        <div class="icon">
+                          <i class="fa fa-facebook-square faicon"></i>
+                          <a href="#">- E-Rabi -</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>© 2021 <a a href="https://mycoding.com" target="_blank"> E-Rabi - Digital Invitation</a>
+            <br>© Theme Script By <a href="https://mycoding.com" target="_blank">MC Project</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="<?php echo base_url() ?>/assets/base/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url() ?>/assets/base/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url() ?>/assets/base/js/owl-carousel.js"></script>
+  <script src="<?php echo base_url() ?>/assets/base/js/animation.js"></script>
+  <script src="<?php echo base_url() ?>/assets/base/js/imagesloaded.js"></script>
+  <script src="<?php echo base_url() ?>/assets/base/js/custom.js"></script>
+  <script src="<?php echo base_url() ?>/assets/base/js/owl-carousel-banner.js"></script>
+
+</body>
+
 </html>
