@@ -113,10 +113,10 @@ https://templatemo.com/tm-568-digimedia
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2>NIkahin</h2>
+                    <h2>Nikahin</h2>
                     <!-- <h6>Digital Invitation</h6> -->
                     <p>
-                      E-Rabi - Digital Invitation merupakan undangan berformat digital yang hadir untuk menjawab kebutuhan masyarakat, tanpa perlu memikirkan jarak dan juga dikemas dengan tampilan yang menarik.</br></br><b>Ayo Buat Undangan Online Anda Sekarang dan Berikan Kesan Tak Terlupakan Kepada Setiap Tamu Undangan Anda!</b>
+                      Nikahin - Digital Invitation merupakan undangan berformat digital yang hadir untuk menjawab kebutuhan masyarakat, tanpa perlu memikirkan jarak dan juga dikemas dengan tampilan yang menarik.</br></br><b>Ayo Buat Undangan Online Anda Sekarang dan Berikan Kesan Tak Terlupakan Kepada Setiap Tamu Undangan Anda!</b>
                     </p>
                   </div>
                   <div class="col-lg-12">
@@ -156,7 +156,7 @@ https://templatemo.com/tm-568-digimedia
         <div class="row">
           <div class="col-lg-12">
             <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-              <h4>Tentang <em>E-Rabi</em></h4>
+              <h4>Tentang <em>Nikahin</em></h4>
               <div class="line-dec"></div>
             </div>
           </div>
@@ -176,87 +176,17 @@ https://templatemo.com/tm-568-digimedia
               <div class="about-right-content">
                 <div class="section-heading">
                   <!-- <h6>Tentang Kami</h6> -->
-                  <h6>Siapa E-Rabi ?</h6>
+                  <h6>Siapa Nikahin ?</h6>
                   <div class="line-dec"></div>
                 </div>
-                <p>E-Rabi - Digital Invitation menyediakan banyak tema design undangan pernikahan yang bersifat digital, E-Rabi didesain untuk memberikan kesan yang tak akan terlupakan oleh setiap tamu undangan Anda dengan berbagai pilihan desain undangan, E-Rabi juga dapat menyempurnakan moment berharga Anda.</p>
+                <p>Nikahin - Digital Invitation menyediakan banyak tema design undangan pernikahan yang bersifat digital, Nikahin didesain untuk memberikan kesan yang tak akan terlupakan oleh setiap tamu undangan Anda dengan berbagai pilihan desain undangan, Nikahin juga dapat menyempurnakan moment berharga Anda.</p>
                 <div class="section-heading">
-                  <h6>Kenapa Pilih E-Rabi ?</h6>
+                  <h6>Kenapa Pilih Nikahin ?</h6>
                   <div class="line-dec"></div>
                 </div></br>
                 <div class="row">
-                  <div class="col-lg-3 col-sm-4 col-6">
-                    <div class="skill-item first-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                      <div class="progress" data-percentage="100">
-                        <span class="progress-left">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">
-                          <div>
-                            100%<br>
-                            <span>Terjangkau</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-4 col-6">
-                    <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                      <div class="progress" data-percentage="100">
-                        <span class="progress-left">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">
-                          <div>
-                            100%<br>
-                            <span>Responsive</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-4 col-6">
-                    <div class="skill-item third-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                      <div class="progress" data-percentage="100">
-                        <span class="progress-left">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">
-                          <div>
-                            100%<br>
-                            <span>Banyak Fitur</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-4 col-6">
-                    <div class="skill-item second-skill-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0s">
-                      <div class="progress" data-percentage="100">
-                        <span class="progress-left">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <span class="progress-right">
-                          <span class="progress-bar"></span>
-                        </span>
-                        <div class="progress-value">
-                          <div>
-                            100%<br>
-                            <span>Berkesan</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <img src="<?php echo base_url() ?>/assets/base/img/my_power.png" alt="">
+
                 </div>
               </div>
             </div>
@@ -272,7 +202,7 @@ https://templatemo.com/tm-568-digimedia
         <div class="col-lg-12">
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <!-- <h6>Fitur</h6> -->
-            <h4>Fitur <em>E-Rabi</em></h4>
+            <h4>Fitur <em>Nikahin</em></h4>
             <div class="line-dec"></div>
           </div>
         </div>
@@ -334,7 +264,7 @@ https://templatemo.com/tm-568-digimedia
                                     </tr>
                                   </table>
                                 </div>
-                                <!-- <p>Masih Banyak Lagi Loh Fitur - Fitur Dari E-Rabi </p> -->
+                                <!-- <p>Masih Banyak Lagi Loh Fitur - Fitur Dari Nikahin </p> -->
                               </div>
                             </div>
                             <div class="col-lg-6 align-self-center">
@@ -363,7 +293,7 @@ https://templatemo.com/tm-568-digimedia
           <div class="col-lg-12">
             <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
               <!-- <h6>Our Portofolio</h6> -->
-              <h4>Tema <em>E-Rabi</em></h4>
+              <h4>Tema <em>Nikahin</em></h4>
               <div class="line-dec"></div>
             </div>
           </div>
@@ -502,7 +432,7 @@ https://templatemo.com/tm-568-digimedia
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>© 2021 <a a href="https://mycoding.com" target="_blank"> E-Rabi - Digital Invitation</a>
+          <p>© 2021 <a a href="https://mycoding.com" target="_blank"> Nikahin - Digital Invitation</a>
             <br>© Theme Script By <a href="https://mycoding.com" target="_blank">MC Project</a>
           </p>
         </div>
