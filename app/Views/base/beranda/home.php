@@ -77,7 +77,7 @@ https://templatemo.com/tm-568-digimedia
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="<?php echo base_url() ?>/assets/base/img/logo-v2.png" alt="">
+              <img src="<?php echo base_url() ?>/assets/base/img/logo.png" alt="">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -113,7 +113,7 @@ https://templatemo.com/tm-568-digimedia
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2>E-Rabi</h2>
+                    <h2>NIkahin</h2>
                     <!-- <h6>Digital Invitation</h6> -->
                     <p>
                       E-Rabi - Digital Invitation merupakan undangan berformat digital yang hadir untuk menjawab kebutuhan masyarakat, tanpa perlu memikirkan jarak dan juga dikemas dengan tampilan yang menarik.</br></br><b>Ayo Buat Undangan Online Anda Sekarang dan Berikan Kesan Tak Terlupakan Kepada Setiap Tamu Undangan Anda!</b>
